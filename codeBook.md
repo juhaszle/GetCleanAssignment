@@ -52,5 +52,3 @@ infix ’Mag’: magnitude
 suffix ’Mean’: mean of
 suffix ’Std’: standard deviation of
 suffix’X/Y/Z’: x,y or z axes 
-
-
