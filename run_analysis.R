@@ -48,3 +48,4 @@ data=cbind(datatotal["subject"], data2, datatotal["activity"])
 aggdata=aggregate(data[,2:(dim(data)[2]-1)], by=list(subject=data$subject, activity=data$activity), mean)
 # writing aggregated data (aggdata) to a file
 write.table(aggdata, file="aggregatedData.txt")
+#
